@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://nextgo-backend-vercel.vercel.app/",
+  baseURL: "localhost:8080",
 });
 
 api.interceptors.request.use((config) => {
